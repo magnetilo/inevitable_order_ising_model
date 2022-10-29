@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inevitable Order?</title>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script type="text/javascript" src="jsgif-master/LZWEncoder.js"></script>
+  <script type="text/javascript" src="jsgif-master/NeuQuant.js"></script>
+  <script type="text/javascript" src="jsgif-master/GIFEncoder.js"></script>
+  <script type="text/javascript" src="jsgif-master/b64.js"></script>
+  <script type="text/javascript" src="IsingModelWithImageTargets.js"></script>
+
+  <!-- Import the main script file -->
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <canvas id="currentCanvas">
+  Your browser does not support the HTML5 canvas tag.
+  </canvas>
+  &emsp;
+  <canvas id="targetCanvas"></canvas>
+  &emsp;
+  <canvas id="originalCanvas"></canvas>
+  <br>
+  <input type="button" value="Start" id="startStop" disabled/>
+  <input type="button" value="Download GIF" id="downloadGif" disabled/>
+</body>
+</html>
