@@ -2,7 +2,12 @@
 
 Monte Carlo simulation of the Ising model with external field fed by different target images.
 This program is used for illustrating the big question of the origin of order in life in
-the following article: .
+the following article:
+* https://medium.com/@thiloweber/towards-physics-towards-data-science-and-beyond-7facd344cf81
+
+Example videos:
+* https://vimeo.com/765213017?autoplay=1&loop=1&autopause=0
+* https://vimeo.com/765217509?autoplay=1&loop=1&autopause=0
 
 ## License: MIT
 Copyright (c) 2022 Thilo Weber
